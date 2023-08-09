@@ -105,4 +105,4 @@ with open("path_with_hash.pickle", "wb+") as f:
 with open("output.json", "w+", encoding="utf-8") as f:
     print(json.dumps(path_with_hash, indent=2, ensure_ascii=True), file=f)
 
-logging.info(f"Completed in {(time.time() - time_start):.2f} ms")
+logging.info(f"Completed in {(time.time() - time_start):.2f} s")
